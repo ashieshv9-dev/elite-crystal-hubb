@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 315" role="img" aria-label="Amethyst cluster">
+  <rect width="420" height="315" fill="#f1e9dc"/>
+  <ellipse cx="210" cy="248" rx="122" ry="30" fill="#d5c1a1"/>
+  <g stroke="#4b3152" stroke-width="7">
+    <path d="M120 208l42-116 34 116z" fill="#a083b2"/>
+    <path d="M178 220l36-152 48 148z" fill="#67496d"/>
+    <path d="M246 214l30-104 46 104z" fill="#7a5a94"/>
+    <path d="M152 222h142l-24 34H176z" fill="#b79c76" stroke="#7d6546"/>
+  </g>
+</svg>

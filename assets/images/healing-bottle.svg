@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 315" role="img" aria-label="Healing bottle">
+  <defs><linearGradient id="glass" x1="0" x2="1" y1="0" y2="1"><stop stop-color="#ffffff"/><stop offset="1" stop-color="#b9dfdc"/></linearGradient></defs>
+  <rect width="420" height="315" fill="#eef5ee"/>
+  <ellipse cx="210" cy="260" rx="88" ry="22" fill="#c6d5c4"/>
+  <rect x="178" y="46" width="64" height="38" rx="12" fill="#b79c76"/>
+  <rect x="146" y="78" width="128" height="190" rx="42" fill="url(#glass)" stroke="#ffffff" stroke-width="10"/>
+  <path d="M178 104h64v132h-64z" fill="#ffffff" opacity=".35"/>
+  <circle cx="210" cy="122" r="15" fill="#c56f72"/><circle cx="210" cy="156" r="15" fill="#c9942f"/><circle cx="210" cy="190" r="15" fill="#5f8f70"/><circle cx="210" cy="224" r="15" fill="#67496d"/>
+</svg>

@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="noindex">
+    <title>Product Control Panel - Elite Crystal Hubb</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body class="admin-body">
+    <header class="site-header">
+      <a class="brand" href="index.html">
+        <span class="brand-mark" aria-hidden="true">ECH</span>
+        <span>
+          <strong>Elite Crystal Hubb</strong>
+          <small>Product control panel</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Admin links">
+        <a href="index.html">Storefront</a>
+        <a href="README.md">Setup</a>
+      </nav>
+    </header>
+
+    <main class="admin-shell">
+      <section class="admin-hero">
+        <div>
+          <p class="eyebrow">No-code product editing</p>
+          <h1>Control Panel</h1>
+          <p>Edit products, preview them in this browser, then download the product file for GitHub Pages.</p>
+        </div>
+        <div class="admin-actions">
+          <button class="button primary" type="button" data-add-product>Add product</button>
+          <button class="button secondary" type="button" data-save-preview>Save preview</button>
+          <button class="button ghost" type="button" data-export>Download products.js</button>
+          <label class="button ghost file-button">
+            Import products.js
+            <input type="file" accept=".js,.json" data-import>
+          </label>
+        </div>
+      </section>
+
+      <section class="settings-panel" aria-label="Store settings">
+        <h2>Store Settings</h2>
+        <div class="settings-grid">
+          <label>
+            WhatsApp number with country code
+            <input data-setting="whatsappNumber" placeholder="919999999999">
+          </label>
+          <label>
+            UPI ID
+            <input data-setting="upiId" placeholder="yourbusiness@upi">
+          </label>
+          <label>
+            Business name
+            <input data-setting="businessName" placeholder="Elite Crystal Hubb">
+          </label>
+          <label>
+            Shipping note
+            <input data-setting="shippingNote" placeholder="Shipping calculated after address confirmation">
+          </label>
+        </div>
+      </section>
+
+      <section class="admin-grid" data-admin-list aria-label="Product editor"></section>
+    </main>
+
+    <template id="product-editor-template">
+      <article class="product-editor">
+        <div class="editor-head">
+          <strong data-editor-title>Product</strong>
+          <button class="icon-button danger" type="button" data-remove>Remove</button>
+        </div>
+        <div class="editor-fields">
+          <label>
+            Product name
+            <input data-field="name" required>
+          </label>
+          <label>
+            Category
+            <input data-field="category" required>
+          </label>
+          <label>
+            Price
+            <input data-field="price" type="number" min="0" step="1" required>
+          </label>
+          <label>
+            Stock
+            <input data-field="stock" type="number" min="0" step="1">
+          </label>
+          <label class="wide">
+            Image path
+            <input data-field="image" placeholder="assets/images/pyrite.svg">
+          </label>
+          <label class="wide">
+            Description
+            <textarea data-field="description" rows="3"></textarea>
+          </label>
+          <label class="wide">
+            Tags
+            <input data-field="tags" placeholder="abundance, decor, gifting">
+          </label>
+          <label class="switch-row">
+            <input data-field="featured" type="checkbox">
+            Featured product
+          </label>
+        </div>
+      </article>
+    </template>
+
+    <div class="toast" data-toast role="status" aria-live="polite"></div>
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/admin.js"></script>
+  </body>
+</html>

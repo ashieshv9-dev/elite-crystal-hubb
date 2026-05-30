@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 315" role="img" aria-label="Pyrite crystal tree">
+  <rect width="420" height="315" fill="#eef5ee"/>
+  <ellipse cx="210" cy="258" rx="112" ry="26" fill="#c6d5c4"/>
+  <path d="M210 116c-8 52-8 92 0 122" fill="none" stroke="#7a5514" stroke-width="12" stroke-linecap="round"/>
+  <path d="M210 158c-40-20-68-44-84-72M210 158c42-16 72-38 92-66M210 190c-34 0-68 18-92 48M210 190c38 2 72 18 102 48" fill="none" stroke="#916617" stroke-width="7" stroke-linecap="round"/>
+  <g fill="#c9942f" stroke="#7a5514" stroke-width="5">
+    <path d="M114 56l28 14-6 30-30 6-16-26z"/><path d="M174 42l30 18-8 32-34 4-16-30z"/><path d="M252 44l34 14 2 34-32 14-24-24z"/><path d="M300 92l32 14-4 34-34 8-20-28z"/><path d="M92 190l32 14-4 34-34 8-20-28z"/><path d="M300 196l32 12-2 34-32 12-22-26z"/>
+  </g>
+  <rect x="162" y="230" width="96" height="34" rx="8" fill="#b79c76"/>
+</svg>

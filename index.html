@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Elite Crystal Hubb - pyrite stones, healing bottles, bracelets, and spiritual essentials.">
+    <title>Elite Crystal Hubb</title>
+    <link rel="preconnect" href="https://wa.me">
+    <link rel="stylesheet" href="assets/css/styles.css">
+  </head>
+  <body>
+    <header class="site-header" data-header>
+      <a class="brand" href="#home" aria-label="Elite Crystal Hubb home">
+        <span class="brand-mark" aria-hidden="true">ECH</span>
+        <span>
+          <strong>Elite Crystal Hubb</strong>
+          <small>Crystal care and mindful gifting</small>
+        </span>
+      </a>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="#shop">Shop</a>
+        <a href="#rituals">Care</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="icon-button cart-open" type="button" data-open-cart aria-label="Open cart">
+        <span aria-hidden="true">Cart</span>
+        <strong data-cart-count>0</strong>
+      </button>
+    </header>
+
+    <main id="home">
+      <section class="hero">
+        <div class="hero-copy">
+          <p class="eyebrow">Handpicked spiritual essentials</p>
+          <h1>Elite Crystal Hubb</h1>
+          <p class="hero-text">Pyrite stones, charged bottles, bracelets, and intention-led gifts for calm spaces and meaningful routines.</p>
+          <div class="hero-actions">
+            <a class="button primary" href="#shop">Shop products</a>
+            <a class="button ghost" href="#contact">Order on WhatsApp</a>
+          </div>
+        </div>
+        <div class="hero-visual" aria-label="Crystal product arrangement">
+          <img src="assets/images/hero-crystals.svg" alt="Pyrite stones, crystal bottle, bracelet, and candle arranged on a ritual tray">
+        </div>
+      </section>
+
+      <section class="trust-strip" aria-label="Store highlights">
+        <div>
+          <strong>Small batch catalog</strong>
+          <span>Perfect for 15-20 products</span>
+        </div>
+        <div>
+          <strong>UPI ready</strong>
+          <span>PhonePe / UPI payment intent</span>
+        </div>
+        <div>
+          <strong>Manual confirmation</strong>
+          <span>Simple WhatsApp order flow</span>
+        </div>
+      </section>
+
+      <section class="shop-section" id="shop">
+        <div class="section-heading">
+          <p class="eyebrow">Current collection</p>
+          <h2>Shop by energy, purpose, and gifting need</h2>
+        </div>
+
+        <div class="shop-toolbar" aria-label="Product filters">
+          <label class="search-field">
+            <span>Search</span>
+            <input type="search" data-search placeholder="Pyrite, bottle, bracelet...">
+          </label>
+          <div class="category-tabs" data-categories aria-label="Categories"></div>
+        </div>
+
+        <div class="product-grid" data-product-grid aria-live="polite"></div>
+      </section>
+
+      <section class="ritual-section" id="rituals">
+        <div class="section-heading">
+          <p class="eyebrow">Care notes</p>
+          <h2>Gentle care for crystal pieces</h2>
+        </div>
+        <div class="care-grid">
+          <article>
+            <h3>Clean softly</h3>
+            <p>Use a dry cloth for pyrite. Avoid soaking it in water because pyrite can react with moisture.</p>
+          </article>
+          <article>
+            <h3>Store mindfully</h3>
+            <p>Keep pieces in a dry pouch or box. Separate delicate bracelets and bottles from rough stones.</p>
+          </article>
+          <article>
+            <h3>Use with intention</h3>
+            <p>Place crystals where they support your routine: desk, bedside, gifting table, or meditation corner.</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact-section" id="contact">
+        <div>
+          <p class="eyebrow">Need help choosing?</p>
+          <h2>Message us before ordering</h2>
+          <p>Share your budget, use case, or gifting requirement and we will suggest suitable options from the catalog.</p>
+        </div>
+        <a class="button primary" data-whatsapp-link href="#" target="_blank" rel="noopener">Chat on WhatsApp</a>
+      </section>
+    </main>
+
+    <aside class="cart-drawer" data-cart-drawer aria-hidden="true" aria-label="Shopping cart">
+      <div class="cart-panel">
+        <div class="cart-head">
+          <div>
+            <p class="eyebrow">Your selection</p>
+            <h2>Cart</h2>
+          </div>
+          <button class="icon-button" type="button" data-close-cart aria-label="Close cart">Close</button>
+        </div>
+        <div class="cart-items" data-cart-items></div>
+        <div class="cart-empty" data-cart-empty>
+          <strong>Your cart is empty</strong>
+          <span>Add a product to begin.</span>
+        </div>
+        <form class="checkout-form" data-checkout-form>
+          <label>
+            Full name
+            <input name="name" autocomplete="name" required>
+          </label>
+          <label>
+            Mobile number
+            <input name="phone" inputmode="tel" autocomplete="tel" required>
+          </label>
+          <label>
+            Delivery address
+            <textarea name="address" rows="3" required></textarea>
+          </label>
+          <label>
+            Notes
+            <textarea name="notes" rows="2" placeholder="Gift packing, preferred stone size, delivery timing..."></textarea>
+          </label>
+          <div class="cart-total">
+            <span>Total</span>
+            <strong data-cart-total>Rs. 0</strong>
+          </div>
+          <button class="button primary full" type="submit">Send order on WhatsApp</button>
+          <a class="button secondary full" data-upi-link href="#">Pay with PhonePe / UPI</a>
+          <p class="fineprint">Payment is confirmed manually after you share the UPI transaction screenshot or UTR on WhatsApp.</p>
+        </form>
+      </div>
+    </aside>
+
+    <div class="toast" data-toast role="status" aria-live="polite"></div>
+
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/shop.js"></script>
+  </body>
+</html>

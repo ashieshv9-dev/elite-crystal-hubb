@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 420 315" role="img" aria-label="Crystal bracelet">
+  <rect width="420" height="315" fill="#f4ecd9"/>
+  <ellipse cx="210" cy="240" rx="120" ry="32" fill="#d5c1a1"/>
+  <g stroke-width="7">
+    <circle cx="150" cy="142" r="25" fill="#c56f72" stroke="#8b4b4e"/><circle cx="195" cy="120" r="25" fill="#f1c95f" stroke="#916617"/><circle cx="244" cy="130" r="25" fill="#5f8f70" stroke="#42674e"/><circle cx="278" cy="168" r="25" fill="#67496d" stroke="#4b3152"/><circle cx="260" cy="216" r="25" fill="#26392c" stroke="#18241c"/><circle cx="210" cy="232" r="25" fill="#ead8c4" stroke="#b79c76"/><circle cx="162" cy="212" r="25" fill="#c9942f" stroke="#916617"/><circle cx="132" cy="178" r="25" fill="#ffffff" stroke="#b79c76"/>
+  </g>
+</svg>
